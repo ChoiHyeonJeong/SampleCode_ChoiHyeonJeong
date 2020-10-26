@@ -9,7 +9,7 @@ void UDataManager::SetUpdates(const FUpdates& updates)
 }
 void UDataManager::SetStage(const TArray<FStage>& stages)
 {
-	stages_ = stages_;
+	stages_ = stages;
 }
 const TArray<FStage>& UDataManager::GetStages()
 {
